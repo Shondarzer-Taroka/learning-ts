@@ -18,4 +18,33 @@ var persons = {
 };
 var person1 = { name: "David", age: 35 };
 var person2 = { name: "Eve", age: 28, email: "eve@example.com" };
-console.log(person2);
+var person = { id: 1, name: "Alice" };
+var nmh = {
+    hjj: 88,
+    her: 989,
+};
+var gy = {
+    holyName: 'Bolin',
+    holyID: 999978898,
+    address: {
+        city: 'yytytg',
+        id: 87678678
+    },
+    tr: {
+        gh: 'dddd',
+        fg: 9898,
+        bg: {
+            a: 'ss',
+            b: true
+        }
+    }
+};
+var vc = {
+    gh: 'err',
+    fg: 87668,
+    bg: {
+        a: 'iououy',
+        b: false
+    }
+};
+console.log(vc);
