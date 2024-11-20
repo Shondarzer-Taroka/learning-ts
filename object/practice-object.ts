@@ -38,4 +38,14 @@ let persons:Persons={
     hn:['po',777]
 }
 
-console.log(persons);
+
+interface Bolibom {
+    name: string;
+    age: number;
+    email?: string; // Optional property
+  }
+  
+  const person1: Bolibom = { name: "David", age: 35 };
+  const person2: Bolibom = { name: "Eve", age: 28, email: "eve@example.com" };
+  
+console.log(person2);

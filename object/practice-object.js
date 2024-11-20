@@ -16,4 +16,6 @@ var persons = {
     hobbis: ['uyu', 'kjhjhj'],
     hn: ['po', 777]
 };
-console.log(persons);
+var person1 = { name: "David", age: 35 };
+var person2 = { name: "Eve", age: 28, email: "eve@example.com" };
+console.log(person2);
