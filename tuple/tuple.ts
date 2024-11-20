@@ -7,15 +7,18 @@
 
 // array
 let students:[number,string,number]=[1,'ll',873]
-// console.log(students);
 
-// let bb:readonly string []=['dddd']
-let bb: string []=['dddd']
-// let bb:readonly string []=['dddd']
-// bb.push('hol')
-// bb.push()
+// // Tuples can have optional elements, which are indicated by a ?
+let bg:[number,string?];
+bg=[767]
 
-const numbers = [1, 2, 3]; // inferred to type number[]
+// // Rest Elements in Tuples
 
-console.log(numbers);
+let bn: [number,string,...number[]]
+// let bn:readonly [number,string,...number[]]
+bn=[88,'monna',99,987,99,88,5]
+
+console.log(bn);
+
+
 

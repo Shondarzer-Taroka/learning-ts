@@ -5,11 +5,11 @@
 // console.log(myTuple[0]);
 // array
 var students = [1, 'll', 873];
-// console.log(students);
-// let bb:readonly string []=['dddd']
-var bb = ['dddd'];
-// let bb:readonly string []=['dddd']
-// bb.push('hol')
-// bb.push()
-var numbers = [1, 2, 3]; // inferred to type number[]
-console.log(numbers);
+// // Tuples can have optional elements, which are indicated by a ?
+var bg;
+bg = [767];
+// // Rest Elements in Tuples
+var bn;
+// let bn:readonly [number,string,...number[]]
+bn = [88, 'monna', 99, 987, 99, 88, 5];
+console.log(bn);
