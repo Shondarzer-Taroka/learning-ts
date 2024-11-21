@@ -23,6 +23,7 @@ var nmh = {
     hjj: 88,
     her: 989,
 };
+nmh.rweq = 54;
 var gy = {
     holyName: 'Bolin',
     holyID: 999978898,
@@ -75,5 +76,10 @@ var calculate = {
         return c - d;
     },
 };
-console.log(calculate.add(66, 88));
-console.log(calculate.substruct(89, 76));
+var bvbv = [{ a: 'kjhjkh', b: 90879879 }];
+// // index signature
+var yter = {};
+yter.got = 88;
+console.log(nmh);
+// console.log(calculate.add(66,88));
+// console.log(calculate.substruct(89,76));

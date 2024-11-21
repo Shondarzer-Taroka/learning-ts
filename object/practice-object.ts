@@ -71,6 +71,8 @@ let nmh: DynamicSignature = {
     her: 989,
 }
 
+nmh.rweq=54
+
 // // Nested Objects
 
 interface Address {
@@ -173,5 +175,22 @@ let pok:Record<number,(number|string|boolean)>
         return c-d
     },
  }
-console.log(calculate.add(66,88));
-console.log(calculate.substruct(89,76));
+
+ 
+ interface ArrInt {
+    a:string,b:number
+ }
+ 
+ let bvbv:ArrInt[]=[{a:'kjhjkh',b:90879879}]
+
+// // index signature
+ let yter:{[index:string]:number}={}
+
+ yter.got=88
+
+ console.log(nmh);
+ 
+
+
+// console.log(calculate.add(66,88));
+// console.log(calculate.substruct(89,76));

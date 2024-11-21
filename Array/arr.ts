@@ -50,7 +50,12 @@ let bom:any[]
 bom=[23,'foe',8767,'mk',false,{a:'uy',b:0}]
 
 
+// //  type in array
 
+
+type VB=[string,number]
+let nn:VB=['uiu',786]
+console.log(179,nn[0]);
 
 
 
