@@ -47,4 +47,18 @@ var vc = {
         b: false
     }
 };
-console.log(vc);
+// // Object Type vs. object Type
+// let rito:{
+//     firstName:string;
+//     lastName:string;
+//     age:number;
+//     jobtitle:string,
+// };
+var rito;
+rito = {
+    firstName: 'hoja',
+    lastName: 'miya',
+    age: 223,
+    jobtitle: 'web developer'
+};
+console.log(rito);
