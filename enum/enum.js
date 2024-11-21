@@ -25,3 +25,9 @@ var UserRequest3;
     UserRequest3["Book_data"] = "Book_Name";
 })(UserRequest3 || (UserRequest3 = {}));
 console.log(UserRequest3.Book_data);
+var Vresi;
+(function (Vresi) {
+    Vresi["Name"] = "hom";
+    Vresi["Value"] = "POl";
+})(Vresi || (Vresi = {}));
+console.log(Vresi);

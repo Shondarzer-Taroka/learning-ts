@@ -32,3 +32,10 @@ enum UserRequest3{
 console.log(UserRequest3.Book_data);
 
 
+ enum Vresi{
+    Name='hom',
+    Value='POl'
+ }
+
+ console.log(Vresi);
+ 

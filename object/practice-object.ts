@@ -137,7 +137,9 @@ let vc: Uoler = {
 //     jobtitle:string,
    
 // };
-let rito:object;
+
+// // {}: Represents an object with no specific keys.
+let rito:{};
 rito={
     firstName:'hoja',
     lastName:'miya',
@@ -147,4 +149,29 @@ rito={
 
 
 
-console.log(rito);
+// // Record<K, V>: Represents an object where keys (K) and values (V) follow specific types.
+
+let pok:Record<number,(number|string|boolean)>
+
+ pok={
+    9:8,
+    5:true,
+    7:false
+ }
+
+
+ // // functions in Objects
+
+ type Caleculator={
+    add:(a:number,b:number)=> number;
+    substruct: (c:number,d:number)=> number
+ }
+
+ let calculate:Caleculator={
+    add:(a,b)=> a+b,
+    substruct:(c, d) =>{
+        return c-d
+    },
+ }
+console.log(calculate.add(66,88));
+console.log(calculate.substruct(89,76));

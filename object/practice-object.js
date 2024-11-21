@@ -54,6 +54,7 @@ var vc = {
 //     age:number;
 //     jobtitle:string,
 // };
+// // {}: Represents an object with no specific keys.
 var rito;
 rito = {
     firstName: 'hoja',
@@ -61,4 +62,18 @@ rito = {
     age: 223,
     jobtitle: 'web developer'
 };
-console.log(rito);
+// // Record<K, V>: Represents an object where keys (K) and values (V) follow specific types.
+var pok;
+pok = {
+    9: 8,
+    5: true,
+    7: false
+};
+var calculate = {
+    add: function (a, b) { return a + b; },
+    substruct: function (c, d) {
+        return c - d;
+    },
+};
+console.log(calculate.add(66, 88));
+console.log(calculate.substruct(89, 76));
