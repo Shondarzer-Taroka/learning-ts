@@ -49,6 +49,20 @@ function getInfo(value: string | number): string {
   }
 }
 
+
+// // Asynchronous Functions
+
+async function asynfunctionints(url:string):Promise<string> {
+  const res=await fetch(url)
+  const data=await res.json()
+  return data
+}
+
+asynfunctionints('https://jsonplaceholder.typicode.com/users')
+.then(data=> console.log(data)
+)
+
+
 console.log(getInfo("Alice")); // Output: Name: Alice
 console.log(getInfo(25));      // Output: Age: 25
 
