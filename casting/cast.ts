@@ -21,4 +21,5 @@ function getLength(value:string|number):number {
 
     return value.toString().length
 }
+
 console.log(getLength(1223344333));
